@@ -213,6 +213,22 @@ class Footer extends Component{
     }
 }
 
+
+
+class Mycomponenet extends Component{
+    render()
+    {
+        return(
+            <h1>ANNi dya bs kr na</h1>
+            
+        )
+    }
+    
+}
+ReactDOM.render(<Mycomponenet/>, document.getElementById("anni"));
+
+
+
 ReactDOM.render(<Header />, document.getElementById('header'));
 ReactDOM.render(<Home />, document.getElementById('home'));
 ReactDOM.render(<Cotact />, document.getElementById('contact'));
